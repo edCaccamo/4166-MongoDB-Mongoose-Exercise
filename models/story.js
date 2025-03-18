@@ -8,6 +8,6 @@ const storySchema = new Schema({
 
 },
     { timestamps: true }
-);
+);// joeybee
 
 module.exports = mongoose.model('Story', storySchema);
