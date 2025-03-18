@@ -13,7 +13,7 @@ let port = 3000;
 let host = 'localhost';
 let url = 'mongodb://localhost:27017/demos';
 app.set('view engine', 'ejs');
-const mongUri = 'mongodb+srv://ecaccamo:joeybee@cluster0.cdrpp.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0';
+const mongUri = 'mongodb+srv://ecaccamo:<password>@cluster0.cdrpp.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0';
 
 //connect to db
 mongoose.connect(mongUri)
